@@ -1,0 +1,25 @@
+git,init,,"Initializes Git / creates "".git"" hidden folder"
+git,status,,Provides Status of condition
+git,add, file_name,"Stages ""file_name"" before Commiting / Tracks the current version of the file"
+git,commit,.,brings you to a vim screen to ad a commit message 
+git,"commit -m ""messagei282""",.,Commits with the message within the inverted commas(messagei282)
+git,log,,Shows commit log
+git,add,.,stages current directory
+git,add ,*.html,stages current folder's html files only(selective staging)
+git,branch,branch_name,"Makes and names the new branch as ""branch_name"""
+git,checkout,branch_name,Moves from current branch to branch_name
+git,merge,my_branch,"merges ""my_branch"" to current branch"
+git ,commit -a,.,skips staging
+git,mergetool,,requires a mergetool to be installed- helps merge
+git ,stash,,saves working directory to return to later on
+git,stash apply,,retrieves and restores changes from stash
+git ,remote,,lists remote repositories
+git,clone,https://github.com/username/repositoryname.git,"clones git repository of username""username"" with repository name ""repositoryname"""
+git ,remote -v,,shows URLs for origin's git repositories
+git,fetch,origin,Retrieves changes made on origin since previous clone and commit.the command does not merge both copies.
+git,pull,origin,will fetch and merge into current branch
+git ,push,origin master,uploads current origin directory to the remote git repository on branch master
+git ,remote add,name https://github.com/username/repositoryname.git,"stages the current repository remotely and names the version of the stages file to ""name"""
+git,config --global user.name,"""user_name""","configures git completely on the system to the user ""user_name"""
+git ,config --global user.email,"""email@test.com""","configures git throughout on the system to user email ""email@test.com"""
+,touch,.gitignore,ignores content placed within .gitignore while committing. Touch is used since windows requires a file name for a file with an extension

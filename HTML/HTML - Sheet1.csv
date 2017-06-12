@@ -1,0 +1,14 @@
+Tags,Usage,Property,Speciality,Main Attributes,Atributes Optional
+,,,,,
+<!DOCTYPE>,HTML 5 Declaration,Sets stanadrd for version of HTML used,Self ending,,
+<html></html>,describes the ranges between which the html is written ,Defines the file as a HTML file,Mandatory usage,"<html lang=ën-US"">","<tagname style =""property:value"">"
+<head></head>,describes the ranges between which the head is written ,Defines head of the file,Mandatory Usage,,
+<body></body>,describes the ranges between which the body is written,Defines the body of the file,Mandatory Usage,,"<body ""text-align:center""></body>"
+<h1></h1>,describes the largest allocated size for a text,Defines the size of the text,,,
+<h6></h6>,describes the shortest allocated size of the text,Defines the size of the text,,,
+<p></p>,describes the region of a paragraph,Allocates a certain amount of whitespace prior to the text,,"<p title=""I'm a tooltip"">this is a paragraph</p>",
+<a></a>,anchor tag usually refernces an element,Bears the property of the attribute,,,
+<img,Used to locate and provide various properties to image,Displays an image bearing the attribute of its property,Self terminating,,
+<hr>,Used to display a horizontal line,Creates a visible break,Self terminating,,
+</br>,Used to part objects on a page,Creates  visible seperation,Self terminating,,
+<!-- Comment -->,Used to describe various stages of the file ,Anything Within is ignored,Removed in Production ,,
